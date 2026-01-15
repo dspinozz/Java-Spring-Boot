@@ -16,6 +16,7 @@ A RESTful API for personal task management built with Spring Boot, featuring cat
 
 - **Spring Boot 3.2.0**
 - **Spring Data JPA** - Database abstraction layer
+- **Hibernate ORM 6.3** - JPA implementation (ORM)
 - **H2 Database** - In-memory database for development
 - **PostgreSQL** - Production database support
 - **Lombok** - Reduces boilerplate code
@@ -191,7 +192,7 @@ src/
 2. **Repository Pattern**: Spring Data JPA repositories
 3. **Service Layer**: Business logic separation
 4. **REST Controllers**: RESTful API design
-5. **JPA Entities**: Database mapping with relationships
+5. **JPA Entities**: Database mapping with Hibernate ORM
 6. **Validation**: Bean validation with `@Valid`
 7. **Exception Handling**: Global exception handler
 8. **Transaction Management**: `@Transactional` annotations
